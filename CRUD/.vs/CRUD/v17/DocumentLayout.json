@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\jcoroy\\documents\\jawo\\sourcecode\\crud\\application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|solutionrelative:application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\jcoroy\\documents\\jawo\\sourcecode\\crud\\infrastructure\\repositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\infrastructure\\repositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\jcoroy\\documents\\jawo\\sourcecode\\crud\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\jcoroy\\documents\\jawo\\sourcecode\\crud\\infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\application\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|solutionrelative:application\\models\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|c:\\users\\jcoroy\\documents\\jawo\\sourcecode\\crud\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B4EE316-17B2-437E-8812-65222AD51B88}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\infrastructure\\context\\cruddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED0A029-ABEA-4190-9A45-632B1B9977DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\context\\cruddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|solutionrelative:application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|c:\\users\\admin\\documents\\github\\crud\\crud\\application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA682529-4527-445C-8F97-876AEA08B865}|Application\\Application.csproj|solutionrelative:application\\mapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +54,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:18:16.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Models\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Models\\PaginatedList.cs",
+              "RelativeToolTip": "Application\\Models\\PaginatedList.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADgv0cAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T12:09:40.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-16T11:58:16.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIAwwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:55:11.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CRUDDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\Context\\CRUDDBContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Context\\CRUDDBContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\Context\\CRUDDBContext.cs",
+              "RelativeToolTip": "Infrastructure\\Context\\CRUDDBContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T11:51:45.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Models\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Models\\UserDTO.cs",
+              "RelativeToolTip": "Application\\Models\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T10:52:18.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Application\\Mapper\\Mapper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Mapper\\Mapper.cs",
               "RelativeDocumentMoniker": "Application\\Mapper\\Mapper.cs",
-              "ToolTip": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Application\\Mapper\\Mapper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Mapper\\Mapper.cs",
               "RelativeToolTip": "Application\\Mapper\\Mapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,11 +151,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Application\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAApwDkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T08:28:45.484Z",
               "EditorCaption": ""
@@ -66,37 +164,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserRepositories.cs",
-              "DocumentMoniker": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\Repositories\\UserRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\Repositories\\UserRepositories.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepositories.cs",
-              "ToolTip": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\Repositories\\UserRepositories.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\Repositories\\UserRepositories.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\UserRepositories.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDUAAAAgAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAIAwwDQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T08:27:33.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
               "RelativeToolTip": "Infrastructure\\DependencyInjection\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T08:26:46.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\WebAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAuwB0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T08:26:44.545Z",
               "EditorCaption": ""

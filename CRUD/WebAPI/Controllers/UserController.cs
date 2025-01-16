@@ -17,9 +17,9 @@ namespace WebAPI.Controllers
             _service = service;
         }
         [HttpGet("GetList")]
-        public async Task<IActionResult> GetList()
+        public async Task<IActionResult> GetList(int Page = 1)
         {
-            return Ok(await _service.GetList());
+            return Ok(await _service.GetList(Page));
         }
         [HttpPost("AddUser")]
         public async Task<IActionResult> AddUser(UserDTO data)

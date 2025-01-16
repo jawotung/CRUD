@@ -1,4 +1,5 @@
 ﻿using Application.Models;
+using Application.Models.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Application.Interfaces
 {
     public interface IUserService
     {
-        Task<ReturnStatusList<UserDTO>> GetList();
+        Task<ReturnStatusData<PaginatedList<UserDTO>>> GetList(int Page = 1);
         Task<ReturnStatusData<UserDTO>> AddUser(UserDTO data);
         Task<ReturnStatusData<UserDTO>> EditUser(int id, UserDTO data);
         Task<ReturnStatus> DeleteUser(int id);

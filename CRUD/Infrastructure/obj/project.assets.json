@@ -2781,23 +2781,24 @@
     "net8.0": [
       "Application >= 1.0.0",
       "Domain >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 8.0.12"
+      "Microsoft.EntityFrameworkCore >= 8.0.12",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.12"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jcoroy\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\jcoroy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jcoroy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2805,18 +2806,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Application\\Application.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Application\\Application.csproj"
             },
-            "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\jcoroy\\Documents\\Jawo\\SourceCode\\CRUD\\Domain\\Domain.csproj"
+            "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\CRUD\\CRUD\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2839,6 +2839,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.12, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[8.0.12, )"
           }
         },
         "imports": [
@@ -2857,7 +2861,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

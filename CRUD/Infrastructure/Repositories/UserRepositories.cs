@@ -1,5 +1,8 @@
 ﻿using Application.Interfaces;
+using Application.Models.Helpers;
+using Application.Models;
 using AutoMapper;
+using Azure;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,11 +22,12 @@ namespace Infrastructure.Repositories
             _context = context;
             _mapper = mapper;
         }
-        public async Task<List<User>> GetList()
+        public async Task<PaginatedList<User, UserDTO>> GetList(int Page)
         {
             try
             {
-                return await _context.Users.ToListAsync();
+                IQueryable<User> list = _context.Users.OrderBy(x => x.UserId);
+                return await PaginatedList<User, UserDTO>.CreateAsync(list, _mapper, Page);
             }
             catch
             {
@@ -34,6 +38,8 @@ namespace Infrastructure.Repositories
         {
             try
             {
+                data.CreateDate = DateTime.Now;
+                data.UpdateDate = DateTime.Now;
                 _context.Users.Add(data);
                 await _context.SaveChangesAsync();
                 return data;
@@ -52,6 +58,7 @@ namespace Infrastructure.Repositories
                     throw new InvalidOperationException("No user found");
 
                 _mapper.Map(data, existingUser);
+                existingUser.UpdateDate = DateTime.Now;
                 existingUser.UpdateDate = DateTime.Now;
                 _context.Entry(existingUser).State = EntityState.Modified;
                 await _context.SaveChangesAsync();

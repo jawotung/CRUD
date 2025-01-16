@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Models;
+using Application.Models.Helpers;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -19,17 +20,15 @@ namespace Application.Services
             _repo = repo;
             _mapper = mapper;
         }
-        public async Task<ReturnStatusList<UserDTO>> GetList()
+        public async Task<ReturnStatusData<PaginatedList<UserDTO>>> GetList(int Page = 1)
         {
-            ReturnStatusList<UserDTO> result = new() { Status = 1} ;
+            ReturnStatusData<PaginatedList<UserDTO>> result = new() { Status = 1} ;
             try
             {
-
-                List<User> userlist = await _repo.GetList();
-                result.Data = _mapper.Map<List<UserDTO>>(userlist);
+                PaginatedList<User, UserDTO> data = await _repo.GetList(Page);
+                result.Data = new PaginatedList<UserDTO>(data.Data, data.CountData, data.PageIndex, data.TotalPages);
                 result.Status = 0;
-                result.Message = "Successfull";
-
+                result.Message = "";
             }
             catch(Exception ex)
             {
@@ -46,7 +45,7 @@ namespace Application.Services
                 User user = _mapper.Map<User>(data);
                 User userlist = await _repo.AddUser(user);
                 result.Status = 0;
-                result.Message = "Successfull";
+                result.Message = "Successfull! User was successfully added";
 
             }
             catch (Exception ex)
@@ -68,7 +67,7 @@ namespace Application.Services
                 User user = _mapper.Map<User>(data);
                 User userlist = await _repo.UpdateUser(user);
                 result.Status = 0;
-                result.Message = "Successfull";
+                result.Message = "Successfull! User was successfully updated";
 
             }
             catch (Exception ex)
@@ -84,7 +83,7 @@ namespace Application.Services
             {
                 await _repo.DeleteUser(id);
                 result.Status = 0;
-                result.Message = "Successfull";
+                result.Message = "Successfull! User was successfully deleted";
             }
             catch (Exception ex)
             {
